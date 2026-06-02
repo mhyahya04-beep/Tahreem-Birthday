@@ -9,12 +9,6 @@ export function HeroBirthdaySection() {
     navigate({ to: "/letter" });
   }, [navigate]);
 
-  const onKey = (e: React.KeyboardEvent) => {
-    if (e.key === "Enter" || e.key === " ") {
-      e.preventDefault();
-      openLetter();
-    }
-  };
 
   return (
     <main className="relative min-h-dvh w-full overflow-hidden">
@@ -38,7 +32,6 @@ export function HeroBirthdaySection() {
         <button
           type="button"
           onClick={openLetter}
-          onKeyDown={onKey}
           aria-label={`Open the birthday letter for ${letter.recipient}`}
           className="hero-envelope relative z-10"
         >

@@ -18,7 +18,7 @@ export function LetterStatusRail({ active }: { active: StatusKey }) {
         return (
           <div key={s.key} className={`status-rail-item ${cls}`}>
             <span className="status-rail-dot" aria-hidden />
-            <span className="label">{s.label}</span>
+            <span className="label" aria-hidden="true">{s.label}</span>
             <span className="sr-only">
               {s.label}
               {i === activeIdx ? " (current)" : ""}
