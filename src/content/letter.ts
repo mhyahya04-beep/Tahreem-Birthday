@@ -1,6 +1,6 @@
 export const letter = {
   recipient: "Tahreem",
-  eyebrow: "A letter waiting quietly for you",
+  eyebrow: "han ye tere liye banaya hai 20 ki hogahi hai tu",
   title: "Happy Birthday Tahreem",
   instruction: "Tap the letter",
   heading: "A letter for Tahreem",
